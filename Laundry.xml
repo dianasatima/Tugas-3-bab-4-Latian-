@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasa_laundry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Laundry.xsd">
+
+<nama>Diana Satima Gistivani</nama>
+<alamat nama="Sukasari"></alamat>
+	<norumah nama="no.13"> </norumah>
+	<rt>003</rt>
+	<rw>013</rw>	
+	
+<nohp>081999888776</nohp>
+<email>satimagistivani@gmail.com</email>
+<jeniscucian nama="selimut"> </jeniscucian>
+<berat>4 kg</berat>
+<harga>Rp 16.000</harga>
+<tanggalmasuk>7/03/2017</tanggalmasuk>
+<tanggalambil>10/03/2017</tanggalambil>
+
+<nama>Tiara Rizki Wulansari</nama>
+<alamat nama="Sarijadi"> </alamat>
+	<norumah nama="no.23"> </norumah>
+	<rt>002</rt>
+	<rw>012</rw>
+
+<nohp>081234652236</nohp>
+<email>26tiara@gmail.com</email>
+<jeniscucian nama="pakaian"> </jeniscucian>
+<berat>3 kg</berat>
+<harga>Rp 12.000</harga>
+<tanggalmasuk>08/03/2017</tanggalmasuk>
+<tanggalambil>12/03/2017</tanggalambil>
+
+<nama>Restiyana Dwi Astuti</nama>
+<alamat nama="Sukamanah"> </alamat>
+	<norumah nama="no.151"> </norumah>
+	<rt>012</rt>
+	<rw>009</rw>
+	
+<nohp>081262990123</nohp>
+<email>resti@gmail.com</email>
+<jeniscucian nama="boneka"> </jeniscucian>
+<berat>7 kg</berat>
+<harga>Rp 28.000</harga>
+<tanggalmasuk>08/03/2017</tanggalmasuk>
+<tanggalambil>15/03/2017</tanggalambil>
+
+<nama>Riyana</nama>
+<alamat nama="Sukajadi"> </alamat>
+	<norumah nama="no.45"> </norumah>
+	<rt>030</rt>
+	<rw>013</rw>
+	
+<nohp>081928098123</nohp>
+<email>riri@gmail.com</email>
+<jeniscucian nama="pakaian"> </jeniscucian>
+<berat>5 kg</berat>
+<harg>Rp 20.000</harg>
+<tanggalmasuk>08/03/2017</tanggalmasuk>
+<tanggalambil>12/03/2017</tanggalambil>
+
+<nama>Agia Nisa</nama>
+<alamat nama="Sarijadi"></alamat>
+	<norumah nama="no.1b"></norumah>
+	<rt>012</rt>
+	<rw>012</rw>
+	
+<nohp>085734652236</nohp>
+<email>gianisa@gmail.com</email>
+<jeniscucian nama="selimut"> </jeniscucian>
+<berat>3 kg</berat>
+<harga>Rp 12.000</harga>
+<tanggalmasuk>10/03/2017</tanggalmasuk>
+<tanggalambil>13/03/2017</tanggalambil>
+
+</jasa_laundry>

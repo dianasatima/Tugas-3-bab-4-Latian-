@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="jasa_laundry">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="berat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="harg"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="jeniscucian"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="nohp"/>
+                <xs:element ref="norumah"/>
+                <xs:element ref="rt"/>
+                <xs:element ref="rw"/>
+                <xs:element ref="tanggalambil"/>
+                <xs:element ref="tanggalmasuk"/>
+            </xs:choice>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alamat">
+        <xs:complexType>
+            <xs:attribute name="nama" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="berat" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="harg" type="xs:string"/>
+    <xs:element name="harga" type="xs:string"/>
+    <xs:element name="jeniscucian">
+        <xs:complexType>
+            <xs:attribute name="nama" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="nohp" type="xs:integer"/>
+    <xs:element name="norumah">
+        <xs:complexType>
+            <xs:attribute name="nama" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rt" type="xs:integer"/>
+    <xs:element name="rw" type="xs:integer"/>
+    <xs:element name="tanggalambil" type="xs:string"/>
+    <xs:element name="tanggalmasuk" type="xs:string"/>
+</xs:schema>
